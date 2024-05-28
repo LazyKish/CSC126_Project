@@ -10,8 +10,8 @@ This Python script utilizes the YOLOv5 object detection model to track people in
 - YOLOv5 model from Ultralytics
 
 You can install the required packages using pip:
--pip install opencv-python torch torchvision
--pip install git+https://github.com/ultralytics/yolov5.git
+1. pip install opencv-python torch torchvision
+2. pip install git+https://github.com/ultralytics/yolov5.git
 
 
 ## Usage
