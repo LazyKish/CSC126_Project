@@ -26,7 +26,7 @@ area_1=[(377,315),(429,373),(535,339),(500,296)]
 area1 = set()
 while True:
     ret, frame = cap.read()
-    frame = cv2.resize(frame, (1280, 720))
+    frame = cv2.resize(frame, (120, 720))
     cv2.polylines(frame, [np.array(area_1, np.int32)], True, (0, 255, 0), 3)
     results = model(frame)
     list = []
