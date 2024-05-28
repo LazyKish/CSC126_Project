@@ -30,10 +30,5 @@ pip install git+https://github.com/ultralytics/yolov5.git
 - You can adjust the size and position of the area of interest (`area_1`) by modifying the coordinates in the script.
 - Different YOLOv5 models (e.g., `yolov5s`, `yolov5m`, `yolov5l`, `yolov5x`) can be used by changing the model parameter in the `torch.hub.load` function.
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
